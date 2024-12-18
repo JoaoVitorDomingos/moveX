@@ -1,0 +1,3 @@
+Roxo: #800080
+Azul Meia-Noite: #051119
+Branco Bone: #E1E9E5
