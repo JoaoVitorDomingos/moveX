@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Miller';
+    src: url(../paleta_fontes/Miller_Family/fonts/miller_banner.otf) format('opentype');
+}
+
+:root {
+   --roxo: #800080;
+   --azul_meia_noite: #051119;
+   --branco_bone: #E1E9E5;
+
+   --principal: "Ledger";
+   --secundario: "Roboto Flex";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
