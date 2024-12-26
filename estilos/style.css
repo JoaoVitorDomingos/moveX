@@ -129,7 +129,7 @@ main {
 /* Ofertas */
 #ofertas {
     background-color: var(--branco_bone);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #ofertas > div > div.presente {
@@ -180,4 +180,30 @@ main {
     color: var(--roxo);
     background-color: transparent;
     border: 3px solid var(--azul_meia_noite);
+}
+
+
+/* Destaques */
+#destaques {
+    margin-bottom: 40px;
+}
+
+#destaques > p {
+    display: inline-block;
+    font-size: 1.1em;
+    color: white;
+    background-color: var(--azul_meia_noite);
+    border: 1px solid var(--azul_meia_noite);
+    border-radius: 14px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    padding: 10px 17px;
+}
+
+#carrossel_produtos > button > span {
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 5px;
+    background-color: white;
+    color: var(--azul_meia_noite);
 }
