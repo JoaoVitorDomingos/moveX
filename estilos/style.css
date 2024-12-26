@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Miller';
-    src: url(../paleta_fontes/Miller_Family/fonts/miller_banner.otf) format('opentype');
+    src: url(../paleta_fontes/Miller_Family/fonts/miller_headline_light.otf) format('opentype');
 }
 
 :root {
@@ -18,4 +18,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* HEADER */
+header > nav {
+    background-color: var(--azul_meia_noite);
+}
+
+#logo {
+    margin-right: -50px;
+    margin-left: -20px;
+}
+
+#container_menu > #btn_menu_responsivo {
+    font-size: 2.5em;
+    color: var(--branco_bone);
+}
+
+#container_menu > #btn_menu_responsivo:hover {
+    font-weight: bold;
+    color: var(--roxo);
+}
+
+#menu_responsivo {
+    background-color: #051119;
+}
+
+#menu_responsivo > div.offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu_responsivo > div.offcanvas-header span {
+    color: var(--branco_bone);
+    font-size: 2em;
+    margin-right: 15px;
+}
+
+#menu_responsivo > div.offcanvas-header span:hover {
+    font-weight: bold;
+    color: var(--roxo);
+}
+
+#menu_responsivo > div.offcanvas-body > ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu_responsivo > div.offcanvas-body > ul > li {
+    text-align: center;
+}
+
+#menu_responsivo > div.offcanvas-body > ul > li > a {
+    font-size: 2em;
+    color: var(--branco_bone);
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+#menu_responsivo > div.offcanvas-body > ul > li > a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--roxo);
+}
+
+#container_menu > #menu {
+    display: none;
+}
+
+#container_icones span {
+    font-size: 1.9em;
+    margin-right: 10px;
+    color: var(--branco_bone);
+}
+
+#container_icones span:hover {
+    font-weight: bold;
+    color: var(--roxo);
+}
+
+#container_icones span:first-child {
+    display: none;
 }
