@@ -185,7 +185,7 @@ main {
 
 /* Destaques */
 #destaques {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 #destaques > p {
@@ -206,4 +206,35 @@ main {
     padding: 5px;
     background-color: white;
     color: var(--azul_meia_noite);
+}
+
+
+/* Sobre */
+section#sobre {
+    background-color: var(--azul_meia_noite);
+    padding: 40px 40px 0px 40px;
+}
+
+#sobre h1 {
+    color: var(--roxo);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    color: var(--branco_bone);
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: -24px;
+}
+
+#sobre div.logo_sobre {
+    width: 119px;
+    height: 177px;
+    margin: auto;
+    background-image: url(../imagens/logos/Símbolo_Roxo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
