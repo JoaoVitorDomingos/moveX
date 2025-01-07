@@ -238,3 +238,70 @@ section#sobre {
     background-size: cover;
     
 }
+
+
+/* CONTATO */
+#contato {
+    padding: 20px;
+}
+
+#contato > h1 {
+    text-align: center;
+    margin: 20px 20px 30px 20px;
+}
+
+#contato form > div, #contato form > textarea {
+    margin-bottom: 15px;
+}
+
+#contato form > div > input {
+    background-color: transparent;
+    border: 1px solid black;
+    /* box-shadow: 2px 1px 3px -1px var(--roxo); */
+}
+
+#contato form > textarea {
+    border: 1px solid black;
+}
+
+#contato form > div > input:focus, #contato form > textarea:focus {
+    border-color: var(--roxo);
+    box-shadow: 2px 1px 3px -1px var(--roxo);
+    background-color: #f389f34b;
+}
+
+#contato form > input.form_btn {
+    background-color: var(--azul_meia_noite);
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid var(--azul_meia_noite);
+    border-radius: 50px;
+    display: block;
+    margin: 10px auto 40px auto;
+    transition: all 0.4s;
+}
+
+#contato form > input.form_btn:hover {
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid var(--azul_meia_noite);
+}
+
+#contato > div > div {
+    text-align: center;
+}
+
+#contato > div > div > p:first-of-type {
+    margin-bottom: 0;
+}
+
+#contato > div > div > div span {
+    font-size: 2.3em;
+    margin-bottom: 0;
+}
+
+#contato > div > div > div p {
+    font-size: 1em;
+    margin-top: -9px;
+}
