@@ -312,6 +312,7 @@ footer {
     text-align: center;
     background-color: #E1E9E5;
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 footer > div.texto_footer {
@@ -346,4 +347,24 @@ footer > div.redes_sociais > i {
 
 footer > div.redes_sociais > i:hover {
     color: var(--roxo);
+}
+
+/* Creditos */
+.creditos {
+    padding: 20px;
+    background-color: var(--branco_bone);
+}
+
+.creditos > a {
+    display: block;
+    color: var(--azul_meia_noite);
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.creditos > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
 }
