@@ -305,3 +305,45 @@ section#sobre {
     font-size: 1em;
     margin-top: -9px;
 }
+
+/* FOOTER */
+footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #E1E9E5;
+    border-top: 1px solid black;
+}
+
+footer > div.texto_footer {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+footer > div.texto_footer > p {
+    margin-bottom: 7px;
+}
+
+footer > div.texto_footer > p:last-of-type {
+    margin-bottom: 20px;
+}
+
+footer > div.texto_footer > p:hover {
+    color: var(--roxo);
+    text-decoration: underline;
+}
+
+footer > div.redes_sociais {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+footer > div.redes_sociais > i {
+    font-size: 2em;
+    margin-right: 20px;
+    color: var(--azul_meia_noite);
+}
+
+footer > div.redes_sociais > i:hover {
+    color: var(--roxo);
+}
