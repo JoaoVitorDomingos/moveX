@@ -107,4 +107,25 @@
     #destaques > div#carrossel_produtos > button > span {
         font-size: 3em;
     }
+
+    /* SOBRE */
+    section#sobre {
+        margin-bottom: 50px;
+        padding: 60px 60px 0 60px;
+    }
+
+    #sobre > h1 {
+        font-size: 3em;
+        margin-bottom: 40px;
+    }
+
+    #sobre > p {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    #sobre > div.logo_sobre {
+        height: 300px;
+        width: 216px;
+    }
 }
