@@ -128,4 +128,68 @@
         height: 300px;
         width: 216px;
     }
+
+    /* CONTATO */
+    #contato {
+        padding: 60px 50px 80px 50px;
+    }
+
+    #contato > h1 {
+        font-size: 3em;
+        margin: 0 0 40px 0;
+    }
+
+    #contato > div > form {
+        margin-bottom: 30px;
+    }
+
+    #contato > div > form > div {
+        margin-bottom: 20px;
+    }
+
+    #contato > div > form > div > input {
+        font-size: 1.5em;
+        padding: 2rem 1.5rem;
+    }
+
+    #contato > div > form > div > input:focus {
+        padding: 3rem 2.25rem 2rem 2.25rem;
+    }
+
+    #contato > div > form > div > label {
+        font-size: 1.2em;
+    }
+
+    #contato > div > form > textarea {
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    #contato > div > form > input.form_btn {
+        font-size: 1.3em;
+        padding: 14px 40px;
+    }
+
+    #contato > div > div > h2 {
+        font-size: 2.5em;
+    }
+
+    #contato > div > div > p {
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+
+    #contato > div > div > div > div:first-of-type {
+        padding-right: 40px;
+        border-right: 3px solid black;
+    }
+
+    #contato > div > div > div span {
+        font-size: 3.5em;
+        margin-bottom: 10px;
+    }
+
+    #contato > div > div > div p {
+        font-size: 1.2em;
+    }
 }
