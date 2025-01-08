@@ -92,4 +92,19 @@
         font-size: 1.5em;
         padding: 14px 35px;
     }
+
+    /* DESTAQUES */
+    #destaques {
+        margin-bottom: 100px;
+    }
+
+    #destaques > p {
+        font-size: 1.5em;
+        padding: 14px 35px;
+        margin: 0 0 50px 15px;
+    }
+
+    #destaques > div#carrossel_produtos > button > span {
+        font-size: 3em;
+    }
 }
