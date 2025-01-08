@@ -16,7 +16,7 @@
     }
 
     #container_menu span#btn_menu_responsivo {
-        font-size: 3.3em;
+        font-size: 3.5em;
         margin-right: 40px;
     }
 
@@ -58,7 +58,38 @@
     }
 
     header nav #container_icones > span {
-        font-size: 2.9em;
+        font-size: 3.3em;
         margin-right: 10px;
+    }
+
+    /* OFERTAS */
+    #ofertas {
+        margin-bottom: 100px;
+    }
+
+    #ofertas > div > div.presente {
+        height: 490px;
+        margin-bottom: 50px;
+    }
+
+    #ofertas > div > div.container_texto {
+        padding: 0 20px;
+    }
+
+    #ofertas > div > div.container_texto > h2 {
+        font-size: 2.5em;
+    }
+
+    #ofertas > div > div.container_texto > h1 {
+        font-size: 3em;
+    }
+
+    #ofertas > div > div.container_texto > p {
+        font-size: 1.7em;
+    }
+
+    #ofertas > div > div.container_texto > p.botao {
+        font-size: 1.5em;
+        padding: 14px 35px;
     }
 }
