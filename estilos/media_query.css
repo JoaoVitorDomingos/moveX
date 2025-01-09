@@ -283,4 +283,36 @@
     header nav #container_icones > span:first-of-type {
         margin-right: 20px;
     }
+
+
+    /* OFERTAS */
+    #ofertas {
+        margin-top: 70px;
+    }
+
+    section#ofertas > div.row {
+        align-items: center;
+    }
+
+    #ofertas > div > div.presente {
+        height: 373px;
+        margin-bottom: 0;
+    }
+
+    #ofertas > div > div.container_texto > h2 {
+        font-size: 2em;
+    }
+
+    #ofertas > div > div.container_texto > h1 {
+        font-size: 2.5em;
+    }
+
+    #ofertas > div > div.container_texto > p {
+        font-size: 1.4em;
+    }
+
+    #ofertas > div > div.container_texto > p.botao {
+        font-size: 1.2em;
+        padding: 12px 29px;
+    }
 }
