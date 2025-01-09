@@ -327,4 +327,15 @@
         width: 50%;
         margin: auto;
     }
+
+
+    /* SOBRE */
+    #sobre > p {
+        margin-bottom: -25px;
+    }
+
+    #sobre > div.logo_sobre {
+        height: 238px;
+        width: 195px;
+    }
 }
