@@ -190,6 +190,35 @@
     }
 
     #contato > div > div > div p {
-        font-size: 1.2em;
+        font-size: 1.3em;
+    }
+
+
+    /* FOOTER */
+    footer {
+        font-size: 1.5em;
+    }
+
+    footer > div.texto_footer {
+        margin: 20px 0;
+    }
+
+    footer > div.texto_footer > p {
+        margin-bottom: 15px;
+    }
+
+    footer > p {
+        margin-bottom: 25px;
+    }
+
+
+    /* CREDITOS */
+    section.creditos {
+        font-size: 1.4em;
+        padding: 35px;
+    }
+
+    section.creditos > a:first-of-type {
+        margin-bottom: 20px;
     }
 }
