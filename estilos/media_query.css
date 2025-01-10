@@ -284,6 +284,11 @@
         margin-right: 20px;
     }
 
+    /* BANNER */
+    #banner {
+        background-image: url(../imagens/home/banner1.jpg);
+    }
+
 
     /* OFERTAS */
     #ofertas {
@@ -338,6 +343,16 @@
         height: 238px;
         width: 195px;
     }
+
+    /* CREDITOS */
+    section.creditos > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section.creditos > a {
+        margin: 0;
+    }
 }
 
 /* Computadores */
@@ -359,5 +374,90 @@
 
     #contato > div > div > div p {
         font-size: 1.2em;
+    }
+
+    /* Creditos */
+    section.creditos > div {
+        max-width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    header nav #container_menu > div#menu > ul > li > a {
+        font-size: 1.6em;
+    }
+
+    header nav #container_icones > span {
+        font-size: 3.5em;
+        margin-right: 70px;
+    }
+
+    header nav #container_icones > span:first-of-type {
+        margin-right: 40px;
+    }
+
+    /* OFERTAS */
+    #ofertas {
+        margin: 140px auto;
+    }
+
+    #ofertas > div > div.presente {
+        height: 470px;
+    }
+
+    #ofertas > div > div.container_texto > h2 {
+        font-size: 2.5em;
+    }
+
+    #ofertas > div > div.container_texto > h1 {
+        font-size: 3em;
+        margin: 30px auto;
+    }
+
+    #ofertas > div > div.container_texto > p {
+        font-size: 1.7em;
+    }
+
+    #ofertas > div > div.container_texto > p.botao {
+        font-size: 1.5em;
+        padding: 14px 35px;
+    }
+
+    /* DESTAQUES */
+    #destaques > p {
+        font-size: 1.5em;
+        padding: 14px 35px;
+    }
+
+    /* SOBRE */
+    #sobre > h1 {
+        font-size: 3.2em;
+    }
+
+    #sobre > p {
+        font-size: 1.7em;
+        margin-bottom: 30px;
+    }
+
+    #sobre > div.logo_sobre {
+        height: 318px;
+    }
+
+    /* CONTATO */
+    #contato > div > div > div p {
+        font-size: 1.3em;
+    }
+
+    /* FOOTER */
+    footer > div.texto_footer {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    footer > div.texto_footer > p {
+        padding-right: 25px;
+        margin-right: 25px;
+        border-right: 3px solid black;
     }
 }
