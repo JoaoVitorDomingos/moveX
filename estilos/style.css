@@ -349,6 +349,7 @@ footer > div.redes_sociais > i {
 
 footer > div.redes_sociais > i:hover {
     color: var(--roxo);
+    cursor: pointer;
 }
 
 /* Creditos */
