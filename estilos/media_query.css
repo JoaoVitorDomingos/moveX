@@ -190,7 +190,7 @@
 
     #contato > div > div > div > div:first-of-type {
         padding-right: 40px;
-        border-right: 3px solid black;
+        border-right: 3px solid var(--azul_meia_noite);
     }
 
     #contato > div > div > div span {
@@ -337,5 +337,27 @@
     #sobre > div.logo_sobre {
         height: 238px;
         width: 195px;
+    }
+}
+
+/* Computadores */
+@media screen and (min-width: 1200px) {
+    header nav #container_menu > div#menu > ul > li {
+        margin-right: 35px;
+    }
+
+    /* Sobre */
+    #sobre > p {
+        max-width: 70%;
+        margin: auto auto -25px auto;
+    }
+
+    /* Contato */
+    #contato > h1 {
+        margin-bottom: 80px;
+    }
+
+    #contato > div > div > div p {
+        font-size: 1.2em;
     }
 }
