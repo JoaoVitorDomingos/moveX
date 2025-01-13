@@ -21,3 +21,12 @@ window.addEventListener("resize", () => {
     largura = window.innerWidth
     mudarClasseMenu()
 })
+
+
+// Formulario
+const formulario = document.querySelector("#contato>div>form")
+console.log(formulario)
+
+formulario.addEventListener("submit", (event) => {
+    event.preventDefault()
+})
