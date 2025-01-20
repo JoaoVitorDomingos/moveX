@@ -182,10 +182,9 @@ main {
 }
 
 #ofertas > div > div.container_texto p.botao:hover {
-    text-decoration: underline;
     font-weight: bold;
     cursor: pointer;
-    color: var(--roxo);
+    color: var(--azul_meia_noite);
     background-color: transparent;
     border: 3px solid var(--azul_meia_noite);
 }
