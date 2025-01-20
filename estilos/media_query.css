@@ -71,6 +71,10 @@
         margin-right: 10px;
     }
 
+    #ofertas, #sobre, #contato {
+        scroll-margin-top: 110px;
+    }
+
     /* OFERTAS */
     #ofertas {
         margin-bottom: 100px;
@@ -301,6 +305,14 @@
         margin-right: 20px;
     }
 
+    #ofertas, #sobre, #contato {
+        scroll-margin-top: 130px;
+    }
+
+    #sobre {
+        scroll-margin-top: 100px;
+    }
+
     /* BANNER */
     #banner {
         background-image: url(../imagens/home/banner1.jpg);
@@ -378,6 +390,10 @@
         margin-right: 35px;
     }
 
+    #ofertas {
+        scroll-margin-top: 150px;
+    }
+
     /* Destaques */
     #destaques > #carrossel_produtos > .carousel-inner > .carousel-item {
         flex: 0 0 calc(100% / 4);
@@ -417,6 +433,14 @@
 
     header nav #container_icones > span:first-of-type {
         margin-right: 40px;
+    }
+
+    #ofertas {
+        scroll-margin-top: 170px;
+    }
+
+    #destaques {
+        scroll-margin-top: 250px;
     }
 
     /* OFERTAS */

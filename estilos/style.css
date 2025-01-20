@@ -126,6 +126,13 @@ main {
     margin-bottom: 30px;
 }
 
+#ofertas, #sobre, #contato {
+    scroll-margin-top: 58px;
+}
+
+#destaques {
+    scroll-margin-top: 180px;
+}
 
 /* Ofertas */
 #ofertas {
