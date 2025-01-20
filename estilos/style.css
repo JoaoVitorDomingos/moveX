@@ -221,12 +221,24 @@ main {
     height: 100%;
 }
 
-#carrossel_produtos > button > span {
+#destaques .produto > img.ajustar_img {
+    object-fit: cover;
+    object-position: center;
+}
+
+#carrossel_produtos > div.btn_carrossel {
     border: 1px solid black;
     border-radius: 9px;
-    padding: 5px;
+    padding: 30px 20px;
     background-color: white;
     color: var(--azul_meia_noite);
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+#carrossel_produtos > div.btn_carrossel:hover {
+    cursor: pointer;
+    opacity: 1;
 }
 
 
