@@ -141,6 +141,6 @@ Veja o projeto você mesmo: https://joaovitordomingos.github.io/moveX/
 <br>
 
 <h2 id="licenca">📃 Licença</h2>
-Veja a lincença do projeto: <a href="https://github.com/JoaoVitorDomingos/My-Class/tree/main?tab=MIT-1-ov-file">MIT License</a>
+Veja a lincença do projeto: <a href="https://github.com/JoaoVitorDomingos/moveX?tab=MIT-1-ov-file">MIT License</a>
 <br>
 <br>
