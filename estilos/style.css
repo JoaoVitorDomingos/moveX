@@ -363,6 +363,7 @@ footer > div.texto_footer > p:last-of-type {
 footer > div.texto_footer > p:hover {
     color: var(--roxo);
     text-decoration: underline;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -401,4 +402,5 @@ footer > div.redes_sociais > i:hover {
     text-decoration: underline;
     cursor: pointer;
     font-weight: bold;
+    color: var(--roxo);
 }

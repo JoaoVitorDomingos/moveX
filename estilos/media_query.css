@@ -275,6 +275,8 @@
     header nav #container_menu > div#menu > ul > li > a:hover {
         cursor: pointer;
         text-decoration: underline;
+        font-weight: bold;
+        color: var(--roxo);
     }
 
     header nav #container_icones {
